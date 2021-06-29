@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ChatFragment"
+    >
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_margin="10dp"
+       android:orientation="vertical">
+
+
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="100dp">
+         <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="140dp"
+
+             android:layout_margin="10dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/image"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+
+                android:src="@drawable/profile1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Abhijeet"
+                android:layout_marginStart="100dp"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="100dp"
+                android:layout_marginBottom="10dp"
+                android:text="How are you?"
+                android:layout_alignParentBottom="true"
+                android:textColor="#9F9292"
+                android:textSize="15sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="100dp"
+                android:text="4:15pm"
+                android:layout_alignParentRight="true"
+                android:textColor="#9F9292"
+                android:textSize="15sp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="5dp"/>
+
+
+         </RelativeLayout>
+      </RelativeLayout>
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="100dp">
+         <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="140dp"
+
+
+             android:layout_margin="10dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/image1"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+
+                android:src="@drawable/profile2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rajeev"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="100dp"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="100dp"
+                android:text="Good Morning"
+                android:layout_marginBottom="10dp"
+                android:layout_alignParentBottom="true"
+                android:textColor="#9F9292"
+                android:textSize="15sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="100dp"
+                android:text="6:15pm"
+                android:layout_alignParentRight="true"
+                android:textColor="#9F9292"
+                android:textSize="15sp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="5dp"/>
+
+
+         </RelativeLayout>
+      </RelativeLayout>
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="100dp">
+         <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="140dp"
+
+
+             android:layout_margin="10dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/image2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+
+                android:src="@drawable/profile3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mohit"
+                android:layout_marginStart="100dp"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="100dp"
+                android:text="Hello"
+                android:layout_marginBottom="10dp"
+                android:layout_alignParentBottom="true"
+                android:textColor="#9F9292"
+                android:textSize="15sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="100dp"
+                android:text="7:30pm"
+                android:layout_alignParentRight="true"
+                android:textColor="#9F9292"
+                android:textSize="15sp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="5dp"/>
+
+
+         </RelativeLayout>
+      </RelativeLayout>
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="100dp">
+         <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="140dp"
+
+
+             android:layout_margin="10dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/image3"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+
+                android:src="@drawable/profile6" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Snehal"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="100dp"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="100dp"
+                android:text="Hiee"
+                android:layout_marginBottom="10dp"
+                android:layout_alignParentBottom="true"
+                android:textColor="#9F9292"
+                android:textSize="15sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="100dp"
+                android:text="9:15am"
+                android:layout_alignParentRight="true"
+                android:textColor="#9F9292"
+                android:textSize="15sp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="5dp"/>
+
+
+         </RelativeLayout>
+      </RelativeLayout>
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="100dp">
+         <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="140dp"
+
+             android:layout_margin="10dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/image4"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/profile4" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vivek"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="100dp"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="100dp"
+                android:text="See you soon"
+                android:layout_marginBottom="10dp"
+                android:layout_alignParentBottom="true"
+                android:textColor="#9F9292"
+                android:textSize="15sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="100dp"
+                android:text="2:15am"
+
+                android:layout_alignParentRight="true"
+                android:textColor="#9F9292"
+                android:textSize="15sp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="5dp"/>
+
+
+         </RelativeLayout>
+      </RelativeLayout>
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="100dp">
+         <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="140dp"
+
+
+             android:layout_margin="10dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/image5"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/profile5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Abhijeet"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="100dp"
+                android:layout_marginBottom="10dp"
+                android:text="How are you?"
+                android:layout_alignParentBottom="true"
+                android:textColor="#9F9292"
+                android:textSize="15sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="100dp"
+                android:text="4:15pm"
+                android:layout_alignParentRight="true"
+                android:textColor="#9F9292"
+                android:textSize="15sp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="5dp"/>
+
+
+         </RelativeLayout>
+      </RelativeLayout>
+
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="100dp">
+         <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="140dp"
+             android:layout_margin="10dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/image6"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/profile1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rohan"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="100dp"
+                android:layout_marginBottom="10dp"
+                android:text="Good Eve :)"
+                android:layout_alignParentBottom="true"
+                android:textColor="#9F9292"
+                android:textSize="15sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="100dp"
+                android:text="4:20pm"
+                android:layout_alignParentRight="true"
+                android:textColor="#9F9292"
+                android:textSize="15sp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="5dp"/>
+
+
+         </RelativeLayout>
+      </RelativeLayout>
+   </LinearLayout>
+
+
+</ScrollView>
